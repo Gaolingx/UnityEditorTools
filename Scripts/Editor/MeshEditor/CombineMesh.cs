@@ -24,7 +24,7 @@ namespace LcLTools
         }
 
 #if UNITY_EDITOR
-        [MenuItem("Tools/MeshTools/CombineMesh")]
+        [MenuItem("LcLTools/CombineMesh")]
         static void StartCombineMesh()
         {
             if (Selection.activeTransform)
